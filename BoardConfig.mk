@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2021-2025 The LineageOS Project
-#
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -36,3 +35,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 ## Include the common tree BoardConfig makefile
 include device/amlogic/g12-common/BoardConfigCommon.mk
+
+## Include the proprietary BoardConfig makefile
+include vendor/radxa/radxa02/BoardConfigVendor.mk

@@ -7,5 +7,15 @@
     "remote": "lineage",
     "repository": "android_hardware_amlogic_kernel-modules_dhd-driver",
     "target_path": "kernel/amlogic/kernel-modules/dhd-driver"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_amlogic_u-boot",
+    "target_path": "hardware/amlogic/u-boot"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_amlogic_u-boot_build",
+    "target_path": "hardware/amlogic/u-boot_build"
   }
 ]
